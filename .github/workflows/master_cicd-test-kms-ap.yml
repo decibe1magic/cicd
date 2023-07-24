@@ -42,7 +42,7 @@ jobs:
         with:
           name: java-app
 #           path: '${{ github.workspace }}/target/*.jar'
-          path: '/target/*.jar'
+          path: '/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
